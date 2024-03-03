@@ -1,0 +1,99 @@
+/* App.css */
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3c7ea; /* Pale purple background */
+    margin: 0;
+    padding: 0;
+    color: #333; /* Dark gray text color */
+}
+
+/* Container styles */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff; /* White background */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Heading styles */
+h1 {
+    color: #911d7b; /* Deep pink heading color */
+    margin-bottom: 20px;
+}
+
+/* Input container styles */
+.input-container {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Input field styles */
+input[type="text"], select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-right: 10px;
+    transition: border-color 0.3s ease;
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+/* Table header and cell styles */
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+/* Table header styles */
+th {
+    background-color: #911d7b; /* Deep pink header background */
+    color: #fff; /* White header text color */
+}
+
+/* Alternate row background color */
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2; /* Light gray alternate row background */
+}
+
+/* Hover effect for table rows */
+tbody tr:hover {
+    background-color: #ffe6fd; /* Pale pink hover background */
+}
+
+/* Pagination styles */
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* Pagination button styles */
+.pagination button {
+    padding: 10px 20px;
+    margin: 0 5px;
+    border: none;
+    background-color: #911d7b; /* Deep pink button background */
+    color: #fff; /* White button text color */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for pagination buttons */
+.pagination button:hover {
+    background-color: #911d7b; /* Darker deep pink hover background */
+}
